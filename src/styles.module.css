@@ -1,0 +1,46 @@
+.HomeBody {
+	font-family: 'Arial';
+	font-size: 15px;
+	width: 100%;
+	max-width: 750px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.HomeAlbumItem {
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.HomeAlbumItem:hover {
+	background-color: #eeedef;
+}
+
+.HomeLink {
+	text-decoration: none;
+	color: black;
+}
+
+.AlbumBody {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 20px;
+}
+
+.AlbumPhoto {
+	border: 2px solid #000;
+	padding: 20px;
+	cursor: pointer;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 300px;
+}
+
+.AlbumPhoto:hover {
+	background-color: #eee;
+}
